@@ -80,4 +80,6 @@ CREATE VIEW public.shipping_datamart AS (
     LEFT JOIN i ON si.shipping_transfer_id = i.shipping_id 
     LEFT JOIN c ON si.shipping_transfer_id = c.shipping_id
 );
-
+SELECT *
+FROM public.shipping_datamart
+LIMIT 10;
