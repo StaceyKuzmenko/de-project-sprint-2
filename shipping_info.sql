@@ -53,3 +53,6 @@ FROM
     FROM 
       public.shipping_country_rates
   ) AS scr ON s.shipping_country = scr.shipping_country;
+SELECT *
+FROM public.shipping_info
+LIMIT 10;
