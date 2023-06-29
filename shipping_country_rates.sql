@@ -20,3 +20,6 @@ FROM
    FROM public.shipping s) AS shipping_information;
 
 DROP SEQUENCE shipping_country_sequence;
+SELECT *
+FROM public.shipping_country_rates
+LIMIT 10;
