@@ -29,3 +29,6 @@ SELECT
   ):: numeric(14, 2) as agreement_commission 
 FROM 
   public.shipping;
+SELECT *
+FROM public.shipping_agreement
+LIMIT 10;
