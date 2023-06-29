@@ -31,6 +31,8 @@ GROUP BY
   shipping_transfer_rate;
 DROP 
   SEQUENCE shipping_transfer_sequence;
-
+SELECT *
+FROM public.shipping_transfer
+LIMIT 10;
 
 
